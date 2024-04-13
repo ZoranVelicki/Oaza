@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Rezervacije</title>
+    <link rel="shortcut icon" href="../slike/icon.png" type="image/x-icon">
+</head>
+<body bgcolor="#AFE1AF">
+    <a href="../index.html">Naslovna strana</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="onama.html">O nama</a>
+    <a href="galerija.html">Galerija</a>
+    <br>
+    <h1>Rezervišite putovanje na vreme:</h1>
+    <form>
+        <label>Ime:</label>
+        <input type="text" id="ime" name="ime" placeholder="Veljko" required />
+        <br>
+        <label>Prezime:</label>
+        <input type="text" placeholder="Veljković" required />
+        <br>
+        <label>Pol:</label> <br />
+        M
+        <input type="radio" name="w" required /> <br>
+        Ž
+        <input type="radio" name="w" /> <br>
+        <label>Datum rođenja:</label>
+        <input type="date" required />
+        <br>
+        <label for="telefon">Broj telefona:</label>
+        <input type="tel" id="telefon" name="telefon" placeholder="+38160 1234567" required />
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="veljković@gmail.com" required />
+        <br>
+        <p>Odredište:</p>
+        Plitvice, Hrvatska
+        <input type="radio" name="x" required /> <br>
+        Maui, Havaji
+        <input type="radio" name="x" />
+        <p>Datum polaska:</p>
+        5.5.2024.
+        <input type="radio" name="y" required /> <br>
+        22.4.2024.
+        <input type="radio" name="y" />
+        <p>Odabir obroka za svaki dan</p>
+        Doručak
+        <input type="checkbox" name="z" /> <br>
+        Ručak
+        <input type="checkbox" name="z" /> <br>
+        Večera
+        <input type="checkbox" name="z" />
+        <br> <br>
+        <label for="plaćanje">način plaćanja</label>
+
+        <select id="plaćanje">
+
+            <option value="gotovina">gotovina</option>
+
+            <option value="master">master kartica</option>
+
+            <option value="visa">visa kartica</option>
+
+        </select>
+
+        <br> <br>
+        resetujte rezervaciju
+        <input type="reset" />
+        <br>
+        pošaljite rezervaciju
+        <input type="submit" />
+    </form>
+</body>
+</html>
